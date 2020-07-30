@@ -31,6 +31,32 @@ public class Goods {
 		return id;
 	}
 	
+	public void setId(long id) {
+		this.id = id;
+	}
 	
+	public String getGoodsName() {
+		return goodsName;
+	}
+	
+	public void setGoodsName(String goodsName) {
+		this.goodsName = goodsName;
+	}
+	
+	public long getPrice() {
+		return price;
+	}
+	
+	public void setPrice(long price) {
+		this.price = price;
+	}
+	
+	public Timestamp getUpdated_at() {
+		return updatedAt;
+	}
+	
+	public void setUpdated_at(Timestamp updatedAt) {
+		this.updatedAt = updatedAt;
+	}
 
 }
