@@ -1,6 +1,6 @@
 package jp.co.internous.ecsite.model.entity;
 
-import java.security.Timestamp;
+import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
