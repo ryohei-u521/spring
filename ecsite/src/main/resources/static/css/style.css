@@ -8,7 +8,7 @@ header {
 	padding:0;
 	background:green;
 	color:white;
-	height:70px;
+	height:150px;
 }
 header* {
 	display:inline-block;
@@ -33,6 +33,10 @@ input[name=userName] {
 }
 input[name=password] {
 	width:100px;
+}
+table {
+	margin:20px;
+	border-collapse:collapse;
 }
 table td,table th{
 	border:1px solid grey;

@@ -8,7 +8,7 @@
 $(() => {
 	$('.deleteBtn').on('click', (event) => {
 		event.preventDefault();
-		let tdList = $(event.target).parent().find('td');
+		let tdList = $(event.target).parent().parent().find('td');
 		
 		let id = $(tdList[0]).text();
 		let jsonString = {
